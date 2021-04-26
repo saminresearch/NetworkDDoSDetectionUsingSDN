@@ -1,0 +1,21 @@
+{
+	"attackConfig":
+	{
+		"notValidFirstOctet":[10,127,254,255,1,2,169,172,192],
+		"srcPort":80,
+		"targetPort":1,
+		"targetIP":"10.0.0.64",
+		"ddosIteration":5,
+		"ddosAttackMagnitude":500
+	},
+
+	"trafficConfig":
+	{
+		"notValidFirstOctet":[10,127,254,1,2,169,172,192],
+	"srcPort":2,
+	"destinationPort":80,
+	"destinationLastOctetRange":"2:65",
+	"networkTrafficSize":1000
+	}
+
+}
